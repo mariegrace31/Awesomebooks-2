@@ -1,0 +1,154 @@
+ * {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  margin-top: 0;
+  color: #333;
+}
+
+form {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+nav {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #1c1919;
+  padding: 8px;
+  align-items: center;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav li {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+nav li a:hover {
+  color: blue;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+  list-style-type: none;
+  padding: 10px;
+}
+
+.content-section {
+  display: none;
+}
+
+.content-section.show {
+  display: block;
+  margin-top: 10vh;
+  width: 88.5vw;
+}
+
+.content-section > h2 {
+  margin-left: 35vw;
+  margin-bottom: 3vh;
+}
+
+.content-section > p {
+  margin-left: 35vw;
+}
+
+.content-section > h1 {
+  margin-left: 36vw;
+}
+
+main {
+  margin-top: 2rem;
+}
+
+footer {
+  background-color: #f4f1f1;
+  padding: 8px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  margin: 10px;
+  width: 90%;
+  border: 1px solid #1c1919;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.2);
+}
+
+#bookListItems {
+  border: 2px solid black;
+  width: 86.8vw;
+  margin: auto;
+}
+
+.single-book {
+  display: flex;
+  height: 3vh;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.remove-btn {
+  padding: 0.2vh 0.5vw;
+}
+
+.form-container {
+  width: 40%;
+  margin: auto;
+}
+
+.form-container input {
+  height: 4vh;
+  border: 2px solid black;
+  border-radius: 3px;
+}
+
+.form-container button {
+  width: 3vw;
+  margin-left: 32vw;
+}
+
+ #contactInfo ul {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin: 20px;
+  align-items: center;
+}
+
+#contactInfo h2 {
+  font-size: 25px;
+}
