@@ -1,5 +1,5 @@
 // Retrieve saved book collection from localStorage, if available
-let bookCollection = JSON.parse(localStorage.getItem('bookCollection')) || [];
+const bookCollection = JSON.parse(localStorage.getItem('bookCollection')) || [];
 // Function to render the book list
 export default function renderBookList() {
   const bookListElement = document.getElementById('bookListItems');

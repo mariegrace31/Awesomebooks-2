@@ -1,4 +1,7 @@
 import renderBookList from './booklist.js';
+
+const bookCollection = []; // Declare and initialize the bookCollection array
+
 // Function to add a new book to the collection
 function addBook(title, author) {
   const newBook = { title, author };
@@ -6,6 +9,7 @@ function addBook(title, author) {
   localStorage.setItem('bookCollection', JSON.stringify(bookCollection));
   renderBookList();
 }
+
 export default function handleAddBookFormSubmit(event) {
   event.preventDefault();
   const titleInput = document.getElementById('title');
@@ -13,7 +17,7 @@ export default function handleAddBookFormSubmit(event) {
   const title = titleInput.value;
   const author = authorInput.value;
   addBook(title, author);
-  
+
   // Reset form inputs
   titleInput.value = '';
   authorInput.value = '';

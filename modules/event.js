@@ -1,4 +1,5 @@
 // Function to handle navigation links click event
+
 function handleNavigationLinkClick(event) {
   event.preventDefault();
   const target = this.getAttribute('href').substring(1); // Get the target id
@@ -19,4 +20,3 @@ export default function addEventListeners() {
     link.addEventListener('click', handleNavigationLinkClick);
   });
 }
-

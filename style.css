@@ -1,9 +1,9 @@
- * {
+* {
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-} 
+}
 
 body {
   font-family: Arial, sans-serif;
@@ -29,7 +29,7 @@ form {
 }
 
 nav h2 {
-  color: #9516eb;;
+  color: #9516eb;
 }
 
 nav {
@@ -55,14 +55,13 @@ nav li a {
 }
 
 nav li a:hover {
-  color: #9516eb;;
+  color: #9516eb;
 }
 
 nav ul {
   list-style: none;
   display: flex;
   justify-content: flex-end;
-  padding: 0;
   list-style-type: none;
   padding: 10px;
 }
@@ -139,7 +138,7 @@ footer {
   margin-left: 32vw;
 }
 
- #contactInfo ul {
+#contactInfo ul {
   display: flex;
   flex-direction: column;
   gap: 25px;
