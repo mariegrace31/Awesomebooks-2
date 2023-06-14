@@ -152,3 +152,8 @@ footer {
 #contactInfo h2 {
   font-size: 25px;
 }
+
+#date {
+  color: red;
+  align-items: center;
+}
