@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Awesome books</title>
+  <link rel="stylesheet" href="style.css">
+<body>
+  <nav>
+    <h2>Awesome books</h2>
+    <ul>
+      <li><a href="#bookList"> List</a></li>
+      <li><a href="#addBookForm">Add a new book</a></li>
+      <li><a href="#contactInfo">Contact</a></li>
+    </ul>
+  </nav>
+  <section id="date">
+  </section>
+
+  <main>
+    <section id="bookList" class="content-section">
+      <h2>All Awesome books</h2>
+      <ul id="bookListItems"></ul>
+    </section>
+
+    <section id="addBookForm" class="content-section">
+      <h1>Add a new book</h1>
+      <div class="form-container">
+        <form>
+          <input type="text" id="title" placeholder="Title" required />
+          <input type="text" id="author" placeholder="Author" required />
+          <button type="submit">Add</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="contactInfo" class="content-section">
+      <h2>Contact information</h2>
+      <p>Do you have any questions or you just want to say "hello"?
+        <br> You can reach out to us!
+      </p>
+      <ul>
+        <li>Our e-mail: mail@gmail.com</li>
+        <li>Our phone number: 0043586534422</li>
+        <li>Our adress: Streetname 22, 84503 City, country</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; Copyright...</p>
+  </footer>
+
+
+<script type="module" src="index.js"></script>
+
+</body>
+</html>
