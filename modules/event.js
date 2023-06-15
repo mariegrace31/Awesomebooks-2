@@ -14,9 +14,10 @@ function handleNavigationLinkClick(event) {
   });
 }
 
-export default function addEventListeners() {
+const addEventListener = () => {
   // Event listener for navigation links
   document.querySelectorAll('nav a').forEach((link) => {
     link.addEventListener('click', handleNavigationLinkClick);
   });
-}
+};
+export default addEventListener;
