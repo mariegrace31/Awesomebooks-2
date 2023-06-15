@@ -1,8 +1,8 @@
 // Function to handle navigation links click event
 
-function handleNavigationLinkClick(event) {
+const handleNavigationLinkClick = (event) => {
   event.preventDefault();
-  const target = this.getAttribute('href').substring(1); // Get the target id
+  const target = event.target.getAttribute('href').substring(1); // Use event.target instead of this
   const sections = document.querySelectorAll('.content-section');
   // Show the target section and hide the others
   sections.forEach((section) => {
@@ -12,7 +12,7 @@ function handleNavigationLinkClick(event) {
       section.classList.remove('show');
     }
   });
-}
+};
 
 const addEventListener = () => {
   // Event listener for navigation links
